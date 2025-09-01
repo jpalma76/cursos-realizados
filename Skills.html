@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <title>Inicio portafolio</title>
+    
+    <meta name="description" content="Portafolio realizado con html, css y JavaScript" />
+    <meta name="keywords" content="portafolio, Juan Palma, frontend, html, css, JavaScript" />
+    <meta name="author" content="Juan Palma Álvarez" />
+    <meta name="robots" content="index, follow" />
+
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+
+    <meta name="twitter:title" content="Portafolio web de Juan Palma" />
+    <meta
+      name="twitter:description"
+      content="Portafolio realizado con html, css y JavaScript"
+    />
+    <meta name="twitter:author" content="@jpalma76" />
+    <meta name="twitter:image" content="/images/og.png" />
+
+    <meta name="og:title" content="Portafolio web de Juan Palma" />
+    <meta
+      name="og:description"
+      content="Portafolio realizado con html, css y JavaScript"
+    />
+    <meta name="og:author" content="@jpalma76" />
+    <meta name="og:image" content="/images/og.png" />
+
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="require-trusted-types-for 'script'">
+
+
+    <!-- seccion de estilos -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/certificados.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="head-layout">
+      <div class="box-header">
+        <a href="./index.html">
+          <img id="avatar" src="./images/avatar.jpg" alt="avatar mio" />
+        </a>
+        <div class="title-container">
+          <p class="title">Cursos realizados</p>
+          <p class="subtitle">Técnico Especializado en Instalaciones domiciliarias</p>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Inserción de los cursos con JS -->
+    <main class="grid-container" id="skill-container"></main>
+
+    <footer class="footer-container">
+      <div class="contact">
+        <div class="email">
+          Email:
+          <a href="mailto:juan.palma.alvarez@gmail.com">
+            juan.palma.alvarez@gmail.com</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/skills.js"></script>
+  </body>
+</html>
