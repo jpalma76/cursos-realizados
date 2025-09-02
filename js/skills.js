@@ -139,6 +139,8 @@ cursos.forEach((curso) => {
   img.classList.add("img-cert");
   img.src = curso.image;
   img.alt = curso.name;
+  img.loading = "lazy";
+  // Aquí agregas el fetchpriority
   img.fetchPriority = "high";
 
   cardItem.appendChild(img);
