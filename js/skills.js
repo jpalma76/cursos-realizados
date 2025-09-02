@@ -139,6 +139,7 @@ cursos.forEach((curso) => {
   img.classList.add("img-cert");
   img.src = curso.image;
   img.alt = curso.name;
+  img.fetchPriority = "high";
 
   cardItem.appendChild(img);
 
