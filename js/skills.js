@@ -138,7 +138,7 @@ cursos.forEach((curso) => {
   const img = document.createElement("img");
   img.classList.add("img-cert");
   img.src = curso.image;
-  img.alt = curso.name;
+  img.alt = `Certificado de ${curso.name}`;
   img.loading = "lazy";
   // Aquí agregas el fetchpriority
   img.fetchPriority = "high";
