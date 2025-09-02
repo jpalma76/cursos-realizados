@@ -112,6 +112,8 @@
   width: 98.5%;
   height: 180px;
   border-radius: 10px 10px 0 0;
+  aspect-ratio: 1/1; /* Mantiene formato panorámico */
+  object-fit: contain;
 }
 
 /* Contenedor del nombre del curso */
