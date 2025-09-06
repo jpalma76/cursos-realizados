@@ -86,33 +86,33 @@ let cursos = [
 	},
 	{
 		id: 13,
-		name: "12.- Medidas Preventivas Frente a Radiación UV",
+		name: "Medidas Preventivas Frente a Radiación UV",
 		image:
 			"./img-certificados/cursos-achs/medidas_preventivas_frente_a_radiacion_uv.png",
 		url: "./img-certificados/cursos-achs/medidas_preventivas_frente_a_radiacion_uv.png",
 	},
 	{
 		id: 14,
-		name: "13.- Uso de Extintores",
+		name: "Uso de Extintores",
 		image: "./img-certificados/cursos-achs/uso_de_extintores.png",
 		url: "./img-certificados/cursos-achs/uso de extintores.png",
 	},
 	{
 		id: 15,
-		name: "14.- Primera Respuesta Frente a Emergencias de Salud",
+		name: "Primera Respuesta Frente a Emergencias de Salud",
 		image:
 			"./img-certificados/cursos-achs/primera_respuesta_frente_a_emergencias_de_salud.png",
 		url: "./img-certificados/cursos-achs/primera_respuesta_frente_a_emergencias_de_salud.png",
 	},
 	{
 		id: 16,
-		name: "15.- Manejo Manual de Cargas",
+		name: "Manejo Manual de Cargas",
 		image: "./img-certificados/cursos-achs/manejo_manual_de_cargas.png",
 		url: "./img-certificados/cursos-achs/manejo_manual_de_cargas.png",
 	},
 	{
 		id: 17,
-		name: "16.- Evitando Dolencias Músculo esqueléticas de Extremidades Superiores (TMERT) en su Trabajo",
+		name: "Evitando Dolencias Músculo esqueléticas de Extremidades Superiores (TMERT) en su Trabajo",
 		image:
 			"./img-certificados/cursos-achs/evitando_dolencias_musculoesqueleticas_de_extremidades_superiores-TMERT_en_su_trabajo.png",
 		url: "./img-certificados/cursos-achs/evitando_dolencias_musculoesqueleticas_de_extremidades_superiores-TMERT_en_su_trabajo.png",
@@ -128,7 +128,7 @@ cursos.forEach((curso) => {
 			<img class="certificado" src=${curso.image} alt=${curso.name}
 		</div>
 		<div class="card-title">
-			${curso.name}
+			${curso.id}-${curso.name}
 		</div>
 
 		</div>
