@@ -1,30 +1,21 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #222;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    
 }
 
-/* 
-  Tamaños de ancho de pantalla
-  --xs: 450px;
-  --sm: 630px;
-  --md: 768px;
-  --lg: 1024px;
-  --xl: 1280px;
-  --full: 1536px;
-*/
-:root {
-  /* Colores */
-  --primary-footer: #181d33;
+body {
+    background-color: rgb(236, 236, 238);
+
 }
 
 /* Header */
 .head-layout {
     width: 100%;
-    min-height: 180px;
-    background-color: #181d33;
+    min-height: 130px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,6 +30,7 @@
     align-items: center;
     gap: 10px;
 }
+
 .box-header a {
     width: 90px;
     height: 90px;
@@ -48,8 +40,8 @@
     align-items: center;
     align-content: center;
     text-decoration: none;
-    color: white;
 }
+
 .box-header a #avatar {
     width: 80px;
     height: 80px;
@@ -57,123 +49,83 @@
 }
 
 .title-container {
-    color: white;
     width: 300px;
     text-align: center;
 }
 
 .title-container .title {
-    color: white;
     font-size: 24px;
     font-weight: semibold;
     margin-bottom: 7px;
 }
-.title-container .subtitle {
+
+.title-container .profesion {
     font-size: 14px;
-    color: white;
     margin-bottom: 13px;
+}
+.subtitle {
+    text-align: left;
+    margin-left: 5rem;
 }
 
 /* section certificados */
 .grid-container {
-  width: 100;
-  min-height: 100dvh;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-  padding: 30px;
-  gap: 16px;
-  background-color: #667ac8;
-  min-height: calc(100vh - 310px);
+    width: 100%;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 1rem;
+    min-height: calc(100vh - 310px);
+    padding: 3rem 5rem;
 }
 
-/* tarjeta contenedora */
-.grid-item {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid rgb(15, 22, 72);
-  width: 270px;
-  height: auto;
-  border-radius: 10px;
-  background-color: rgb(52, 59, 141);
-  padding: 5px;
+.card-content {
+    background-color: #76777b;
+    width: 270px;
+    height: 250px;
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
 }
 
-.grid-container a {
-  text-decoration: none;
-}
-
-.card-item {
-  width: 260px;
-  height: auto;
-  margin: auto;
-}
-
-.img-cert {
-  width: 98.5%;
-  height: 180px;
-  border-radius: 10px 10px 0 0;
-  aspect-ratio: 1/1; /* Mantiene formato panorámico */
-  object-fit: contain;
-}
-
-/* Contenedor del nombre del curso */
-.nombre-curso {
-  width: 100%;
-  min-height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.img-name {
-  width: 85%;
-  color: white;
-  text-align: center;
-  font-size: 14px;
-}
-
-@media (max-width: 630px) {
-  .grid-container {
-    padding: 20px;
-    gap: 20px;
-  }
-
-  .grid-container a {
-    padding: 0;
-    margin: 0;
+.card-title {
+    width: 100%;
+    height: 60px;
+    font-size: 12px;
+    margin-bottom: 12px;
+    display: flex;
     justify-content: center;
-  }
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
 
-  .grid-item {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .card-item {
+.image-container {
     width: 100%;
-    margin: 0;
-    padding: 0;
-  }
+}
 
-  .img-cert {
-    width: 100%;
-    height: 230px;
-  }
+.certificado {
+    width: 100% !important;
+    height: 160px;
+    border-radius: 5px 5px 0 0;
+    
+}
 
-  .nombre-curso {
-    min-height: 80px;
-  }
-
-  .img-name {
-    font-size: 14px;
-  }
+@media (max-width: 601px) {
+    .card-content {
+        width: 100% !important;
+        height: auto;
+    }
 }
 
 /* footer */
 .footer-container {
     width: 100%;
     height: 10vh;
-    background-color: var(--primary-footer);
     color: white;
     display: flex;
     align-items: center;
@@ -185,10 +137,10 @@
 .email a {
     color: white;
     font-style: italic;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .email a:hover {
     color: goldenrod;
-    text-decoration: underline; 
+    text-decoration: underline;
 }
