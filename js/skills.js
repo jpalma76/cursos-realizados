@@ -15,21 +15,21 @@ let cursos = [
 	},
 	{
 		id: 3,
-		name: "instalación de los Servicios en Redes HFC (Hibrido de Fibra Coaxial)",
+		name: "Instalación de los Servicios en Redes HFC (Hibrido de Fibra Coaxial)",
 		image:
 			"./img-certificados/certificaciones-vtr/instalacion_de_los_servicios_en_redes_hfc_hibrido_de_fibra_coaxial.png",
 		url: "./img-certificados/certificaciones-vtr/instalacion_de_los_servicios_en_redes_hfc_hibrido_de_fibra_coaxial.png",
 	},
 	{
 		id: 4,
-		name: "Instalación de productos domiciliarios",
+		name: "Instalación de Productos Domiciliarios",
 		image:
 			"./img-certificados/certificaciones-vtr/instalacion_de_productos_domiciliarios.png",
 		url: "./img-certificados/certificaciones-vtr/instalacion_de_productos_domiciliarios.png",
 	},
 	{
 		id: 5,
-		name: "Instalación de Servicios en redes FTTH",
+		name: "Instalación de Servicios en Redes FTTH",
 		image:
 			"./img-certificados/certificaciones-vtr/instalacion_de_servicios_en_redes_ftth.png",
 		url: "./img-certificados/certificaciones-vtr/instalacion_de_servicios_en_redes_ftth.png",
