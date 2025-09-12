@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #000;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
 
 body {
     background-color: rgb(236, 236, 238);
-
+    width: 100%;
+    min-height: screen;
 }
 
 /* Header */
@@ -20,6 +19,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid;
 }
 
 .box-header {
@@ -48,78 +48,97 @@ body {
     border-radius: 50%;
 }
 
-.title-container {
+.title-description {
     width: 300px;
     text-align: center;
 }
 
-.title-container .title {
+.title-description .name {
     font-size: 24px;
     font-weight: semibold;
     margin-bottom: 7px;
 }
 
-.title-container .profesion {
+.title-description .profesion {
     font-size: 14px;
     margin-bottom: 13px;
 }
+
 .subtitle {
     text-align: left;
     margin-left: 5rem;
 }
 
 /* section certificados */
-.grid-container {
+.main-container {
     width: 100%;
-    min-height: 100dvh;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-    gap: 1rem;
-    min-height: calc(100vh - 310px);
-    padding: 3rem 5rem;
-}
-
-.card-content {
-    background-color: #76777b;
-    width: 270px;
-    height: 250px;
-    border-radius: 8px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 5px;
-}
-
-.card-title {
-    width: 100%;
-    height: 60px;
-    font-size: 12px;
-    margin-bottom: 12px;
+    min-height: screen;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    padding: 10px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.card-grid {
+    width: 80%;
+    min-height: screen;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
 }
 
+.card-link {
+    width: 250px;
+    height: 260px;
+    text-decoration: none;
+    background-color: grey;
+    display: flex;
+    font-size: 12px;
+    color: white;
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-link:hover {
+    position: relative;
+    top: -10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.card-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
 .image-container {
     width: 100%;
-}
-
-.certificado {
-    width: 100% !important;
     height: 160px;
-    border-radius: 5px 5px 0 0;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
 }
 
-@media (max-width: 601px) {
-    .card-content {
-        width: 100% !important;
-        height: auto;
-    }
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.title-container {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
 }
 
 /* footer */
