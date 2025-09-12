@@ -1,137 +1,141 @@
 let cursos = [
-	{
-		id: 1,
-		name: "Aplicación de Herramientas para la Certificación de Calidad de Servicios de Telecomunicaciones HFC",
-		image:
-			"./img-certificados/certificaciones-vtr/aplicación_de_herramientas_para_la_certificación_de_calidad_de_servicios_de_telecomunicaciones.png",
-		url: "./img-certificados/certificaciones-vtr/aplicación_de_herramientas_para_la_certificación_de_calidad_de_servicios_de_telecomunicaciones.png",
-	},
-	{
-		id: 2,
-		name: "Aplicación Práctica de Procotolos de Atención y Servicios para la Atención de Clientes",
-		image:
-			"./img-certificados/certificaciones-vtr/aplicacion_practica_de_procotolos_de_atencion_y_servicios_para_la_atencion_de_clientes.png",
-		url: "./img-certificados/certificaciones-vtr/aplicacion_practica_de_procotolos_de_atencion_y_servicios_para_la_atencion_de_clientes.png",
-	},
-	{
-		id: 3,
-		name: "Instalación de los Servicios en Redes HFC (Hibrido de Fibra Coaxial)",
-		image:
-			"./img-certificados/certificaciones-vtr/instalacion_de_los_servicios_en_redes_hfc_hibrido_de_fibra_coaxial.png",
-		url: "./img-certificados/certificaciones-vtr/instalacion_de_los_servicios_en_redes_hfc_hibrido_de_fibra_coaxial.png",
-	},
-	{
-		id: 4,
-		name: "Instalación de Productos Domiciliarios",
-		image:
-			"./img-certificados/certificaciones-vtr/instalacion_de_productos_domiciliarios.png",
-		url: "./img-certificados/certificaciones-vtr/instalacion_de_productos_domiciliarios.png",
-	},
-	{
-		id: 5,
-		name: "Instalación de Servicios en Redes FTTH",
-		image:
-			"./img-certificados/certificaciones-vtr/instalacion_de_servicios_en_redes_ftth.png",
-		url: "./img-certificados/certificaciones-vtr/instalacion_de_servicios_en_redes_ftth.png",
-	},
-	{
-		id: 6,
-		name: "Manejo de Procedimiento de Instalaciones de Calidad",
-		image:
-			"./img-certificados/certificaciones-vtr/manejo_de_procedimiento_de_instalaciones_de_calidad.png",
-		url: "./img-certificados/certificaciones-vtr/manejo_de_procedimiento_de_instalaciones_de_calidad.png",
-	},
-	{
-		id: 7,
-		name: "Trabajo en Altura para la Industria de Telecomunicaciones",
-		image:
-			"./img-certificados/certificaciones-vtr/trabajo_en_altura_para_la_industria_de_telecomunicaciones.png",
-		url: "./img-certificados/certificaciones-vtr/trabajo_en_altura_para_la_industria_de_telecomunicaciones.png",
-	},
+  {
+    id: 1,
+    name: "Aplicación de Herramientas para la Certificación de Calidad de Servicios de Telecomunicaciones HFC",
+    image:
+      "./img-certificados/certificaciones-vtr/aplicación_de_herramientas_para_la_certificación_de_calidad_de_servicios_de_telecomunicaciones.png",
+    url: "./img-certificados/certificaciones-vtr/aplicación_de_herramientas_para_la_certificación_de_calidad_de_servicios_de_telecomunicaciones.png",
+  },
+  {
+    id: 2,
+    name: "Aplicación Práctica de Procotolos de Atención y Servicios para la Atención de Clientes",
+    image:
+      "./img-certificados/certificaciones-vtr/aplicacion_practica_de_procotolos_de_atencion_y_servicios_para_la_atencion_de_clientes.png",
+    url: "./img-certificados/certificaciones-vtr/aplicacion_practica_de_procotolos_de_atencion_y_servicios_para_la_atencion_de_clientes.png",
+  },
+  {
+    id: 3,
+    name: "Instalación de los Servicios en Redes HFC (Hibrido de Fibra Coaxial)",
+    image:
+      "./img-certificados/certificaciones-vtr/instalacion_de_los_servicios_en_redes_hfc_hibrido_de_fibra_coaxial.png",
+    url: "./img-certificados/certificaciones-vtr/instalacion_de_los_servicios_en_redes_hfc_hibrido_de_fibra_coaxial.png",
+  },
+  {
+    id: 4,
+    name: "Instalación de Productos Domiciliarios",
+    image:
+      "./img-certificados/certificaciones-vtr/instalacion_de_productos_domiciliarios.png",
+    url: "./img-certificados/certificaciones-vtr/instalacion_de_productos_domiciliarios.png",
+  },
+  {
+    id: 5,
+    name: "Instalación de Servicios en Redes FTTH",
+    image:
+      "./img-certificados/certificaciones-vtr/instalacion_de_servicios_en_redes_ftth.png",
+    url: "./img-certificados/certificaciones-vtr/instalacion_de_servicios_en_redes_ftth.png",
+  },
+  {
+    id: 6,
+    name: "Manejo de Procedimiento de Instalaciones de Calidad",
+    image:
+      "./img-certificados/certificaciones-vtr/manejo_de_procedimiento_de_instalaciones_de_calidad.png",
+    url: "./img-certificados/certificaciones-vtr/manejo_de_procedimiento_de_instalaciones_de_calidad.png",
+  },
+  {
+    id: 7,
+    name: "Trabajo en Altura para la Industria de Telecomunicaciones",
+    image:
+      "./img-certificados/certificaciones-vtr/trabajo_en_altura_para_la_industria_de_telecomunicaciones.png",
+    url: "./img-certificados/certificaciones-vtr/trabajo_en_altura_para_la_industria_de_telecomunicaciones.png",
+  },
 
-	{
-		id: 8,
-		name: "Induccion Instalacion de Servicios ClaroVTR en Red Neutra",
-		image: "./img-certificados/certificaciones-vtr/instalacion_de_servicios_clarovtr_en_red_neutra.png",
-		url: "./img-certificados/certificaciones-vtr/instalacion_de_servicios_clarovtr_en_red_neutra.png",
-	},
+  {
+    id: 8,
+    name: "Induccion Instalacion de Servicios ClaroVTR en Red Neutra",
+    image: "./img-certificados/certificaciones-vtr/instalacion_de_servicios_clarovtr_en_red_neutra.png",
+    url: "./img-certificados/certificaciones-vtr/instalacion_de_servicios_clarovtr_en_red_neutra.png",
+  },
 
 
-	{
-		id: 9,
-		name: "Seguridad Eléctrica General Nº 1",
-		image: "./img-certificados/cursos-achs/Seguridad_electrica_general_N1.png",
-		url: "./img-certificados/cursos-achs/Seguridad_electrica_general_N1.png",
-	},
-	{
-		id: 10,
-		name: "Seguridad Eléctrica Operacional Nº 2",
-		image:
-			"./img-certificados/cursos-achs/seguridad_electrica_operacional_N2.png",
-		url: "./img-certificados/cursos-achs/seguridad_electrica_operacional_N2.png",
-	},
-	{
-		id: 11,
-		name: "Identificación de Peligros y Evaluación de Riesgos en el Trabajo",
-		image:
-			"./img-certificados/cursos-achs/identificacion_de_peligros_y_evaluacion_de_riesgos_en_el_trabajo.png",
-		url: "./img-certificados/cursos-achs/identificacion_de_peligros_y_evaluacion_de_riesgos_en_el_trabajo.png",
-	},
-	{
-		id: 12,
-		name: "Conducción Defensiva en Vehículos Livianos",
-		image:
-			"./img-certificados/cursos-achs/conduccion_defensiva_en_vehiculos_livianos.png",
-		url: "./img-certificados/cursos-achs/conduccion_defensiva_en_vehiculos_livianos.png",
-	},
-	{
-		id: 13,
-		name: "Medidas Preventivas Frente a Radiación UV",
-		image:
-			"./img-certificados/cursos-achs/medidas_preventivas_frente_a_radiacion_uv.png",
-		url: "./img-certificados/cursos-achs/medidas_preventivas_frente_a_radiacion_uv.png",
-	},
-	{
-		id: 14,
-		name: "Uso de Extintores",
-		image: "./img-certificados/cursos-achs/uso_de_extintores.png",
-		url: "./img-certificados/cursos-achs/uso de extintores.png",
-	},
-	{
-		id: 15,
-		name: "Primera Respuesta Frente a Emergencias de Salud",
-		image:
-			"./img-certificados/cursos-achs/primera_respuesta_frente_a_emergencias_de_salud.png",
-		url: "./img-certificados/cursos-achs/primera_respuesta_frente_a_emergencias_de_salud.png",
-	},
-	{
-		id: 16,
-		name: "Manejo Manual de Cargas",
-		image: "./img-certificados/cursos-achs/manejo_manual_de_cargas.png",
-		url: "./img-certificados/cursos-achs/manejo_manual_de_cargas.png",
-	},
-	{
-		id: 17,
-		name: "Evitando Dolencias Músculo esqueléticas de Extremidades Superiores (TMERT) en su Trabajo",
-		image:
-			"./img-certificados/cursos-achs/evitando_dolencias_musculoesqueleticas_de_extremidades_superiores-TMERT_en_su_trabajo.png",
-		url: "./img-certificados/cursos-achs/evitando_dolencias_musculoesqueleticas_de_extremidades_superiores-TMERT_en_su_trabajo.png",
-	},
+  {
+    id: 9,
+    name: "Seguridad Eléctrica General Nº 1",
+    image: "./img-certificados/cursos-achs/Seguridad_electrica_general_N1.png",
+    url: "./img-certificados/cursos-achs/Seguridad_electrica_general_N1.png",
+  },
+  {
+    id: 10,
+    name: "Seguridad Eléctrica Operacional Nº 2",
+    image:
+      "./img-certificados/cursos-achs/seguridad_electrica_operacional_N2.png",
+    url: "./img-certificados/cursos-achs/seguridad_electrica_operacional_N2.png",
+  },
+  {
+    id: 11,
+    name: "Identificación de Peligros y Evaluación de Riesgos en el Trabajo",
+    image:
+      "./img-certificados/cursos-achs/identificacion_de_peligros_y_evaluacion_de_riesgos_en_el_trabajo.png",
+    url: "./img-certificados/cursos-achs/identificacion_de_peligros_y_evaluacion_de_riesgos_en_el_trabajo.png",
+  },
+  {
+    id: 12,
+    name: "Conducción Defensiva en Vehículos Livianos",
+    image:
+      "./img-certificados/cursos-achs/conduccion_defensiva_en_vehiculos_livianos.png",
+    url: "./img-certificados/cursos-achs/conduccion_defensiva_en_vehiculos_livianos.png",
+  },
+  {
+    id: 13,
+    name: "Medidas Preventivas Frente a Radiación UV",
+    image:
+      "./img-certificados/cursos-achs/medidas_preventivas_frente_a_radiacion_uv.png",
+    url: "./img-certificados/cursos-achs/medidas_preventivas_frente_a_radiacion_uv.png",
+  },
+  {
+    id: 14,
+    name: "Uso de Extintores",
+    image: "./img-certificados/cursos-achs/uso_de_extintores.png",
+    url: "./img-certificados/cursos-achs/uso de extintores.png",
+  },
+  {
+    id: 15,
+    name: "Primera Respuesta Frente a Emergencias de Salud",
+    image:
+      "./img-certificados/cursos-achs/primera_respuesta_frente_a_emergencias_de_salud.png",
+    url: "./img-certificados/cursos-achs/primera_respuesta_frente_a_emergencias_de_salud.png",
+  },
+  {
+    id: 16,
+    name: "Manejo Manual de Cargas",
+    image: "./img-certificados/cursos-achs/manejo_manual_de_cargas.png",
+    url: "./img-certificados/cursos-achs/manejo_manual_de_cargas.png",
+  },
+  {
+    id: 17,
+    name: "Evitando Dolencias Músculo esqueléticas de Extremidades Superiores (TMERT) en su Trabajo",
+    image:
+      "./img-certificados/cursos-achs/evitando_dolencias_musculoesqueleticas_de_extremidades_superiores-TMERT_en_su_trabajo.png",
+    url: "./img-certificados/cursos-achs/evitando_dolencias_musculoesqueleticas_de_extremidades_superiores-TMERT_en_su_trabajo.png",
+  },
 ];
 
-let documentCard = document.getElementById("skill-container");
+let documentCard = document.getElementById("skills-container");
 
 cursos.forEach((curso) => {
-	const card = `
-		<div class="card-content">
-		<div class="image-container">
-			<img class="certificado" src=${curso.image} alt=${curso.name}
-		</div>
-		<div class="card-title">
-			${curso.id}-${curso.name}
-		</div>
+  const card = `
+		<a href=${curso.url} target="_blank" class="card-link">
+      
+      <div class="card-container">
+        <div class="image-container">
+          <img src=${curso.image} alt=${curso.name} class="certificado" />
+        </div>
+        
+        <div class="title-container">
+          <h3 class="curso-name">${curso.name}</h3>
+        </div>
+      </div>
 
-		</div>
+		</a>
 	`
-	documentCard.innerHTML += card;
+  documentCard.innerHTML += card;
 });
