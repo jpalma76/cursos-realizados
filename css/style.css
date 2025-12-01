@@ -85,6 +85,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
+    margin: auto;
 }
 
 .card-link {
@@ -162,4 +163,24 @@ img {
 .email a:hover {
     color: goldenrod;
     text-decoration: underline;
+}
+
+@media (max-width: 670px) {
+    .main-container .card-grid {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        gap: 1rem;
+    }
+
+    .card-link {
+        width: 70%;
+        height: auto;
+    }
+
+    .image-container {
+        height: auto:
+    }
 }
